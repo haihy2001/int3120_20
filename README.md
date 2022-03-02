@@ -68,9 +68,14 @@
 - Flutter còn cung cấp một số nhỏ các widget để thực hiện các cử chỉ cụ thể đơn giản cũng như phức tạp
 - Demo:
 
-  ![Bài 8]()
+  ![Bài 8](/imgs/bai8.png)
 #### Lesson 9
 - Quản lý sate (trạng thái) của ứng dụng là một trong những bước quan trọng và cần thiết trong vòng đời của một ứng dụng.
 - Việc quản lý trạng thái có thể chia làm hai loại:
   - Ephemeral (ngắn hạn): Kéo dài trong thời gian ngắn. Flutter hỗ trợ quản lý trạng thái loại này thông qua StatefulWidget.
   - App state (trạng thái ứng dụng): Kèo dài trong toàn bộ ứng dụng. Flutter hỗ trợ quản lý trạng thái loại này thông qua scoped_model
+#### Lession 10
+- Widget được kết thừa từ Statefulwidget để duy trì trạng thái và quản lý các trạng thái con của nó.
+- Demo:
+
+  ![Bài 10](/imgs/bai10.png)

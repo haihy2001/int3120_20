@@ -80,3 +80,9 @@
   - ScopedModelDescendant: là một widget lấy Data Model từ cha và build lại UI khi Data Model thay đổi.
 - Sử dụng scoped_model để thay cho StatefulWidget để làm RatingBox:
   ![Bài 11](/imgs/bai11.png)
+#### Lesson 12
+- Flutter cung cấp cho chúng ta lớp Routing cơ bản - MaterialPageRoute với hai phương thức - Navigator.push và Navigator.pop
+  - MaterialPageRoute: một widget được sử dụng để render giao diện người dùng nhằm thay thế toàn bộ màn hình với một hiệu ứng chuyển đặc biệt nào đó
+  - Navigation.push: Giúp ta chuyển sang một màn hình khác
+  - Navigation.pop: Được sử dụng để quay về trang trước
+  ![Bài 12](/imgs/bai12.png)

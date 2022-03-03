@@ -69,7 +69,14 @@
 - Việc quản lý trạng thái có thể chia làm hai loại:
   - Ephemeral (ngắn hạn): Kéo dài trong thời gian ngắn. Flutter hỗ trợ quản lý trạng thái loại này thông qua StatefulWidget.
   - App state (trạng thái ứng dụng): Kèo dài trong toàn bộ ứng dụng. Flutter hỗ trợ quản lý trạng thái loại này thông qua scoped_model
-#### Lession 10
+#### Lesson 10
 - Widget được kết thừa từ Statefulwidget để duy trì trạng thái và quản lý các trạng thái con của nó.
 - Demo ứng dụng sử dụng Statefulwidget để làm RatingBox:
   ![Bài 10](/imgs/bai10.png)
+#### Lesson 11
+- Flutter cung cấp một phương pháp đơn giản để quản lý trạng thái của ứng dụng sử dụng scoped_model package. Nó cung cấp 3 class chính:
+  - Model: Model đóng gói trạng thái của một ứng dụng. Model có một phương thức duy nhất là notifyListeners, nó được gọi bất cứ khi nào trạng thái của Model thay đổi. notifyListeners sẽ thực hiện các công việc cần thiết để cập nhật giao diện.
+  - ScopedModel: ScopedModel là một widget để dễ dàng chuyển Data Model từ widget cha xuống con, cháu và rebuild lại các widget con giữ các model khi model này cập nhật.
+  - ScopedModelDescendant: là một widget lấy Data Model từ cha và build lại UI khi Data Model thay đổi.
+- Sử dụng scoped_model để thay cho StatefulWidget để làm RatingBox:
+  ![Bài 11](/imgs/bai11.png)

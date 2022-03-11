@@ -139,3 +139,25 @@
   ![Bài 19](/imgs/bai19_2.png)
   ![Bài 19](/imgs/bai19_3.png)
   ![Bài 19](/imgs/bai19_4.png)
+##### Lesson 21
+- Android:
+  - Thay đổi tên ứng dụng bằng cách truy cập vào lệnh android:label trong file /android/app/src/main/AndroidManifest.xml
+  - Thay đổi icon của ứng dụng bằng android:icon trong file manifest
+  - Lệnh xuất file .apk: `flutter build apk`
+  - Lệnh cài file APK trực tiếp trên thiết bị di động: `flutter install`
+- iOS:
+  - Cập nhật tên Display trong phần cài đặt project của Xcode để đặt tên ứng dụng
+  - Cập nhật Bundle Identifier trong cài đặt của project Xcode để đặt bundle id
+  - Thêm icon mới
+  - Lệnh xuất cho iOS: `flutter build ios`
+- Demo:
+  ![Bài 21](/imgs/bai21.png)
+#### Lesson 22
+- Dart DevTools: là bộ lập trình dựa trên web. Nó hỗ trợ cả hai nền tảng là Android và iOS
+- Flutter SDK:
+  - Để cập nhật Flutter SDK, ta sử dụng lệnh sau: `flutter upgrade`
+  ![Upgrade](/imgs/flutter-upgrade.png)
+  - Để cập nhật các package trong flutter, ta dùng lệnh sau: `flutter pub upgrade`
+  ![Pub Upgrade](/imgs/flutter-pub-upgrade.png)
+- Flutter Inspector: Có thể mở bằng lệnh `flutter run --track-widget-creation`
+  ![Inspector](/imgs/inspector.png)
